@@ -4,7 +4,7 @@ import ImageSlideshow from "./component/main-header/images/image-slideshow";
 export default function Home() {
   return (
     <>
-      <header className={classes.header}>
+      <header className="flex flex-wrap justify-center  lg:ml-12 md:ml-10  ml-10 gap-10">
         <div className={classes.slideshow}>
           <ImageSlideshow />
         </div>
